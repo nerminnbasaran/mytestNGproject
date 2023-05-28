@@ -13,4 +13,6 @@ public class OrangeHRMDashboardPage {
 
     @FindBy(xpath = "//span[@class='oxd-userdropdown-tab']")
     public WebElement profile;
+    @FindBy(linkText = "Logout")
+    public WebElement logout;
 }

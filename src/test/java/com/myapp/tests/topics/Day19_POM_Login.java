@@ -30,9 +30,12 @@ public class Day19_POM_Login {
         Assert.assertTrue(orangeHRMDashboardPage.profile.isDisplayed());
 
 //        Then logout the application
-
+        orangeHRMDashboardPage.profile.click();
+        orangeHRMDashboardPage.logout.click();
 
 //        Then verify log out is successful
+//        We have different options. I choose if URL have auth keyword, it means we are on the login page
+        Assert.assertTrue(Driver.getDriver().getCurrentUrl().contains("auth"));
 
     }
 }

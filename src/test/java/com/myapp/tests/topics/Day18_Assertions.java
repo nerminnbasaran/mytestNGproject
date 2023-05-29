@@ -42,7 +42,7 @@ public class Day18_Assertions {
     }
 
     @Test
-    public void hardAssert2(){
+    public void javaAssertion(){
         /*
         java assert is like Hard Assertion. This is not used a lot. We should use TestNG assertion in a testNG framework
          */
@@ -56,7 +56,14 @@ public class Day18_Assertions {
 
        /*
         NOTES: Assertion means hard assertion. Verification means soft assertion.
-
+        If hard assertion fails, rest of the test case stops.
+        Differences:
+        -Hard assertion stops execution, after assertion failure.Soft assert continues to execute even after failure
+        -We need to create a soft assert object to do soft assertion
+        -assertAll() need to be used in soft assert to make the actual result
+        Which assertion do you prefer?Why?
+        -I used both. But I used hard assertion the most, because I need to fix the issue the moment it shows up.
+        -I usually use soft assertion when I write new test cases to see if all good or some fails.
         */
     }
 

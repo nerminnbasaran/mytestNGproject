@@ -41,4 +41,10 @@ public class RentalHomePage {
     @FindBy(xpath = "//button[@type='submit']")
     public WebElement continueButton;
 
+    @FindBy(linkText ="Logout")
+    public WebElement logOut;
+
+    @FindBy(xpath = "//button[.='OK']")
+    public WebElement OK;
+
 }

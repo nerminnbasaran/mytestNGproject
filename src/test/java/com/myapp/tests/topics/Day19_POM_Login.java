@@ -11,7 +11,7 @@ public class Day19_POM_Login {
 //    Create a test case to login the https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
 //    using page object model
 
-    @Test
+    @Test(groups = "regression1")
     public void loginTest(){
 
     /*

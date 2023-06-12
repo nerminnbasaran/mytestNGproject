@@ -8,7 +8,7 @@ import java.sql.SQLOutput;
 
 public class Day18_Assertions {
 
-    @Test
+    @Test(groups = "regression1")
     public void hardAssertion(){
 
         /*
@@ -41,7 +41,7 @@ public class Day18_Assertions {
 
     }
 
-    @Test
+    @Test(groups = "regression1")
     public void javaAssertion(){
         /*
         java assert is like Hard Assertion. This is not used a lot. We should use TestNG assertion in a testNG framework

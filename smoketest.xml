@@ -3,6 +3,7 @@
     <test name="smoke test"   >
         <packages>
             <package name="com.myapp.tests.smoketestsuite.logintests" />
+            <package name="com.myapp.tests.smoketestsuite.logintests.excelautomation"></package>
         </packages>
     </test>
 </suite>

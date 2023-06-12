@@ -2,10 +2,7 @@ package com.myapp.tests.smoketestsuite.logintests.excelautomation;
 
 import com.myapp.pages.RentalHomePage;
 import com.myapp.pages.RentalLoginPage;
-import com.myapp.utilities.ConfigReader;
-import com.myapp.utilities.Driver;
-import com.myapp.utilities.ExcelUtils;
-import com.myapp.utilities.ReusableMethods;
+import com.myapp.utilities.*;
 import org.testng.annotations.Test;
 
 import java.util.List;
@@ -58,7 +55,6 @@ public class Day21_ExcelLogin {
             rentalLoginPage = new RentalLoginPage();
 //            --LOGIN--
 //            click on login
-
             rentalHomePage.loginLink.click();
 //            enter username
             rentalLoginPage.userEmail.sendKeys(eachData.get("username"));//GET DATA FROM EXCEL

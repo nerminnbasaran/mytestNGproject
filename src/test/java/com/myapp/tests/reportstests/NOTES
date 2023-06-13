@@ -1,0 +1,7 @@
+*****What is Log4j?
+-GENERAL : used to log information
+    -DETAIL 1: we can print on the console
+    -DETAIL 2: we can print on a log file
+    -DETAIL 3: it is used similar to system.out.print.ln
+    -DETAIL 4: it is useful to see the info logs that pass,fail,error
+    -DETAIL 5: it is basically used to generate reports for log(prints)
